@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.top { 
+    height: 720px; 
+    background-color: #F2F3F5; 
+} 
+.bottom { 
+    height: 195px; 
+    background-color: white; 
+}
+.logo {
+    position: absolute;
+    left: 240px; 
+    top: 175px;
+    width: 320px;   
+}
+.text-UnderLogo{
+    position: absolute;
+    left: 270px;
+    top: 245px; 
+}
+input {
+    width: 90%;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    outline: none;
+}
+.field {
+    margin-bottom: 12px;
+}
+.card {
+    background: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    position: absolute;
+    left: 847px;
+    top: 130px;
+}
+
+.login-btn{
+    cursor: pointer;
+    width: 99%;
+    padding: 13px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: 0px solid #1877f2;
+    background-color: #1877f2;
+    color: white;
+}
+.login-btn:hover {
+    background-color: #1c87cf; 
+}
+
+.forgot{
+    color:#1877f2;
+    display: block;
+    margin: 15px 0;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-bottom: 17px;
+    text-decoration: none;
+}
+
+.create-btn{
+    background-color: #42b72a;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.create-btn:hover {
+    background-color: #3b9928; 
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #dddfe2;
+    margin: 15px 0;
+}
+
+.text-underCard{
+    position: absolute;
+    left: 850px;
+    top: 490px; 
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.footer a {
+    color: grey;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    margin-right: 11px;
+    line-height: 2;
+    cursor: pointer;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-langs {
+    position: absolute;
+    top: 750px;
+    left: 300px;
+}
+
+.footer-links{
+    position: absolute;
+    top:800px;
+    left:300px;
+}
+

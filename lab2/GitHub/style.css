@@ -1,0 +1,256 @@
+body{
+    font-family:'Inter', sans-serif;
+}
+
+#GitHubLo{
+    width: 55px;
+    position: relative;
+    left: 5px;
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 70px;
+}
+
+#underH1{
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cta-btn {
+    background: linear-gradient(180deg, #3a3f45, #1f2328);
+    color: white;
+    border: none;
+    padding: 20px 32px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    display: block;
+    margin: 30px auto;
+}
+
+.cta-btn:hover {
+    /* transform: translateY(-2px);  перемещает элемент по вертикали*/
+    background: linear-gradient(180deg, #4a5057, #2a2f35);
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center; /* по центру */
+    align-items: flex-start; /* все карточки на одном уровне сверху */
+    gap: 40px; /* расстояние между карточками */
+    margin-top: 100px;
+    align-items: stretch;
+    flex-wrap: wrap; /* чтобы на телефоне переносились вниз */
+}
+
+.pricing-card-1 {
+    width: 320px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    color: #24292f;
+
+}
+
+.pricing-card-2 {
+    width: 320px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    color: #24292f;
+
+}
+
+.pricing-card-3{
+    width: 320px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    color: #24292f;
+
+}
+
+.plan-title {
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 5px;
+} 
+
+.plan-subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #57606a;
+    margin-bottom: 25px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.currency {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.amount {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.period {
+    font-size: 12px;
+    color: #57606a;
+    margin-left: 6px;
+}
+
+.plan-btn-1 {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #d0d7de;
+    background: white;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 20px;
+    transition: all 0.2s ease;
+}
+
+.plan-btn-2 {
+    background: linear-gradient(180deg, #3a3f45, #1f2328);
+    color: white;
+    border: none;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+.plan-btn-2:hover {
+    /* transform: translateY(-2px);  перемещает элемент по вертикали*/
+    background: linear-gradient(180deg, #4a5057, #2a2f35);
+}
+
+.plan-btn-3{
+    background: linear-gradient(180deg, #3a3f45, #1f2328);
+    color: white;
+    border: none;
+    padding: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    width: 45%;
+}
+
+.plan-btn-3:hover {
+    /* transform: translateY(-2px);  перемещает элемент по вертикали*/
+    background: linear-gradient(180deg, #4a5057, #2a2f35);
+}
+
+.plan-btn-4{
+    width: 45%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #d0d7de;
+    background: white;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 20px;
+    transition: all 0.2s ease;
+}
+
+.item {
+    border-bottom: none;
+    padding: 10px 0;
+}
+
+.item-header {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    list-style: none; /* убираем стандартную стрелку */
+}
+
+.item-header::-webkit-details-marker {
+    display: none;
+}
+
+.item-content {
+    margin-left: 22px;
+    font-size: 12px;
+    color: #57606a;
+    margin-top: 8px;
+}
+
+.arrow {
+    margin-right: 8px;
+    color: #57606a;
+    transition: transform 0.2s ease;
+}
+
+.item[open] .arrow {
+    transform: rotate(90deg);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.text-card{
+    color: #57606a;
+    font-size: 14px;
+    line-height: 1.5;
+    flex-grow: 1;
+}
+
+a {
+    color: #57606a;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+}

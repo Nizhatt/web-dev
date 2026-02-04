@@ -1,0 +1,176 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #0C1014;
+    color: white;
+    margin: 0;
+}
+
+.page {
+    display: flex;
+    min-height: 100vh;
+}
+.left {
+    flex: 1.5;
+    margin-bottom: 40px;
+}
+.right {
+    flex: 1;
+    margin-bottom: 0px;
+    display: flex;
+    background-color:#152127 ;
+}
+
+.logo {
+    width: 110px;
+    margin: 52px 0 0 55px;
+}
+
+.title {
+    font-size: 58px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 40px 0;
+}
+
+#glow {
+    background: linear-gradient(150deg, #fc4a03, rgb(167, 4, 158));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.photo {
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+}
+
+.footer {
+    margin-top: 1%;
+    padding: 30px 20px;
+    color: #888;
+    font-size: 18px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0 auto 20px;
+}
+
+.footer-links a {
+    color: #888;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* НИЖНЯЯ СТРОКА */
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #777;
+}
+
+.container {
+    max-width: 900px;
+    margin-left: 170px;
+    margin-top: -60px;
+}
+
+.login-box{
+    width: 500px;
+    position: absolute;
+    left: 1300px;
+    top: 600px;
+}
+
+.login-box h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    width: 120%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+    background: #1c2b38;
+    color: white;
+}
+
+h2 {
+    margin-top: -400px;
+    margin-left: -100px;
+}
+
+.login-btn {
+    width: 120%;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    background: #1d4880;
+    color: white;
+    cursor: pointer;
+}
+.login-btn:hover{
+    background: #1877f2;
+}
+
+.facebook-btn{
+    width: 120%;
+    padding: 15px;
+    margin-top: 100px;
+    border-radius: 8px;
+    border: 1px solid #2a3b4d;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+.create-btn {
+    width: 120%;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: 1px solid #2a3b4d;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.facebook-btn:hover{
+    color:#1877f2;
+}
+.create-btn:hover{
+    color:#1877f2;
+}
+
+.meta {
+    margin-top: 20px;
+    color: gray;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    margin-top: 1px;
+    margin-bottom: 30px;
+    
+}
+.link:hover {
+    text-decoration: underline;
+}
+hr{
+    color: #2a3b4d;
+}
+
+.login-box form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* центрирует инпуты и кнопки */
+}
