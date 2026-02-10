@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+    <p>Before the script...</p>
+
+    <script>
+        function getWeekDay(date) {
+            let days = ['SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA'];
+            return days[date.getDay()];
+        }
+
+        let date = new Date(2014, 0, 3); 
+        alert( getWeekDay(date) );
+    </script>
+
+    <p>...After the script.</p>
+
+</body>
+
+</html>

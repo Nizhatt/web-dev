@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+    <p>Before the script...</p>
+
+    <script>
+        function groupById(array) {
+            return array.reduce((obj, value) => {
+                obj[value.id] = value;
+                return obj;
+            }, {})
+        }
+    </script>
+
+    <p>...After the script.</p>
+
+</body>
+
+</html>
