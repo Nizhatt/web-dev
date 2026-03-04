@@ -4,3 +4,11 @@
     gap: 20px;
     justify-content: center;
 }
+.rating-good {
+    color: green;
+    font-weight: bold;
+}
+
+.rating-normal {
+    color: blue;
+}

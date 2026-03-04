@@ -1,0 +1,68 @@
+/* Header */
+.app-header {
+  padding: 30px 20px 10px 20px;
+}
+
+.app-header h1 {
+  font-size: 36px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.header-badge {
+  display: inline-block;
+  margin-top: 8px;
+  color: #888;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/* Category section */
+.category-nav {
+  margin: 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* Category buttons */
+.cat-btn {
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background-color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.cat-btn:hover {
+  background-color: #f3f3f3;
+  transform: translateY(-2px);
+}
+
+.cat-btn.active {
+  background-color: #e60023;
+  color: white;
+  border-color: #e60023;
+}
+
+/* Welcome block */
+.welcome {
+  margin: 40px 20px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.welcome h2 {
+  margin-top: 0;
+  font-size: 28px;
+}
+
+.welcome p {
+  color: #666;
+  font-size: 16px;
+}

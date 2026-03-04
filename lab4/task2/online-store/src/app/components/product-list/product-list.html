@@ -4,6 +4,13 @@
     <app-product-card
         *ngFor="let product of products"
         [product]="product">
+        <p [style.color]="product.rating == 5 ? 'green' : 'blue'">
+            Rating: {{ product.rating }}
+        </p>
+
+
     </app-product-card>
+    
 </div>
+
 

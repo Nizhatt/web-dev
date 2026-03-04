@@ -1,0 +1,28 @@
+ <header class="app-header">
+    <h1>Kaspi Store</h1>
+    <span class="header-badge">TOP PICKS</span>
+</header>
+
+<nav class="category-nav">
+    <button
+        *ngFor="let cat of categories"
+        class="cat-btn"
+        [class.active]="cat.id === selectedCategoryId"
+        (click)="onCategorySelect(cat.id)"
+    >
+        {{ cat.name }}
+    </button>
+</nav>
+
+<main>
+    <div *ngIf="selectedCategoryId === null" class="welcome">
+        <h2>Добро пожаловать!</h2>
+        <p>Выберите категорию выше, чтобы увидеть товары</p>
+    </div>
+
+    <app-product-list
+        *ngIf="selectedCategoryId !== null"
+        [products]="selectedProducts"
+        (productDeleted)="onProductDeleted($event)">
+    </app-product-list>
+</main> 

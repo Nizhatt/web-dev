@@ -13,15 +13,19 @@ function addTask(text){
     span.textContent = text;
 
     const deleteBtn = document.createElement("button");
-    deleteBtn.textContent = "🗑";
+    deleteBtn.textContent = "X";
     deleteBtn.className = "delete-btn";
 
     deleteBtn.onclick = function () {
         li.remove();
+        
+        
+
     };
 
     checkbox.onchange = function () {
         span.classList.toggle("done");
+
     };
 
     li.appendChild(checkbox);
